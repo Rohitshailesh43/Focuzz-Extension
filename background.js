@@ -26,6 +26,6 @@ let blockedUrls = [
 blockedUrls.forEach((element) => {
   if (window.location.origin.includes(element.link)) {
     document.getElementsByTagName("body")[0].innerHTML =
-      '<div><img src="https://i.ibb.co/r0RScrj/banner.jpg" style="margin: 0px auto; height: 100vh; display: flex;"></div>';
+      '<div><img src="https://www.tfw2005.com/boards/attachments/stop-it-help-meme-jpg.28788289/" style="margin: 0px auto; height: 100vh; display: flex;"></div>';
   }
 });
